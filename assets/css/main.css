@@ -292,20 +292,8 @@ b,
 strong {
   font-weight: bolder;
 }
-.home-layouts a{
-  position: relative;
-}
-.news-badge{
-  background: -webkit-linear-gradient(169deg, #5560ff 0%, #ff4343 100%);
-  font-size: 17px;
-  font-weight: 500;
-  padding: 5px 24px;
-  color: #fff;
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  z-index: 1;
-}
+
+
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -1055,6 +1043,19 @@ input[type="submit"] {
 .home-item {
   margin-bottom: 40px;
   text-align: center;
+  position: relative;
+}
+
+.home-item .news-badge{
+  background: -webkit-linear-gradient(169deg, #5560ff 0%, #ff4343 100%);
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 24px;
+  color: #fff;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 2;
 }
 
 .home-item .home-inner {
